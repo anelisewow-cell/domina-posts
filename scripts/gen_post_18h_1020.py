@@ -79,10 +79,10 @@ y = 56 + logo_size + 78
 # ---- title, right-aligned ----
 title_font = F(FONT_BOLD, 66)
 lines = [
-    ("SUA EMPRESA", NAVY),
-    ("VENCEU O CONTRATO.", NAVY),
-    ("QUEM VAI", GOLD),
-    ("REPRESENTÁ-LA AGORA?", GOLD),
+    ("QUEM FALA PELA", NAVY),
+    ("SUA EMPRESA DENTRO", NAVY),
+    ("DO CONTRATO COM", GOLD),
+    ("O GOVERNO?", GOLD),
 ]
 for text, color in lines:
     draw_right(y, text, title_font, color)
